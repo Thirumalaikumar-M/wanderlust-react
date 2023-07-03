@@ -10,15 +10,18 @@ const Navbar = () => {
   
   return (
     <div className='w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-gray-700/80'>
-      <ul className='hidden sm:flex px-4'>
+      <ul className='hidden md:flex px-4'>
         <li>
           <a href='/'>Home</a>
+        </li>
+        <li>
+          <a href='#destinations'>Destinations</a>
         </li>
         <li>
           <a href='#gallery'>Gallery</a>
         </li>
         <li>
-          <a href='#deals'>Deals</a>
+          <a href='#feedbacks'>Feedbacks</a>
         </li>
         <li>
           <a href='#contact'>Contact</a>
@@ -42,16 +45,19 @@ const Navbar = () => {
         }
       >
         <ul className='w-full h-full text-center pt-12'>
-          <li className='text-2xl py-8'>
+          <li>
             <a href='/'>Home</a>
           </li>
-          <li className='text-2xl py-8'>
+          <li>
+            <a href='#destinations'>Destinations</a>
+          </li>
+          <li>
             <a href='#gallery'>Gallery</a>
           </li>
-          <li className='text-2xl py-8'>
-            <a href='#deals'>Deals</a>
+          <li>
+            <a href='#feedbacks'>Feedbacks</a>
           </li>
-          <li className='text-2xl py-8'>
+          <li>
             <a href='#contact'>Contact</a>
           </li>
         </ul>
